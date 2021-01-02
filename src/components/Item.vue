@@ -26,14 +26,6 @@ export default defineComponent({
     value: String,
     checked: Boolean,
     date: Number,
-    onCheck: {
-      type: Function,
-      required: true,
-    },
-    onDelete: {
-      type: Function,
-      required: true,
-    }
   },
   emits: ["check", "delete"],
   setup(props, ctx) {
